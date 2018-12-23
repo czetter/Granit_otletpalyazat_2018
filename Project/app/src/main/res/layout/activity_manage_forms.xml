@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManageFormsActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rcvForms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <io.github.yavski.fabspeeddial.FabSpeedDial
+        android:id="@+id/FabSoeedDialForms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:fabGravity="bottom_end"
+        app:fabMenu="@menu/formmanager_floating"
+        app:miniFabBackgroundTint="@android:color/white"
+        app:miniFabDrawableTint="?attr/colorPrimaryDark"
+        app:miniFabTitleTextColor="?attr/colorPrimaryDark"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="515dp"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

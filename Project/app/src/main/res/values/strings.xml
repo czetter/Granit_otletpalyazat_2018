@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Gránit Bank App</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="username">Felhasználónév</string>
+    <string name="please_enter_your_credentials">Kérem, adja meg adatait</string>
+    <string name="password">Jelszó</string>
+    <string name="kivalaszt">Kiválaszt</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="name">Name</string>
+    <string name="accnum">AccNum</string>
+    <string name="k_rem_v_lasszon_k_rty_t">Kérem válasszon kártyát!</string>
+    <string name="utal_s">Utalás</string>
+    <string name="rlap_hozz_ad_s">Űrlap hozzáadás</string>
+    <string name="uj_utalas">Új utalás</string>
+    <string name="kezdem_nyezett_neve">Kedvezményezett neve</string>
+    <string name="kezdem_nyezett_sz_mlasz_ma">Kedvezményezett számlaszáma</string>
+    <string name="sszeg">Összeg</string>
+    <string name="k_zlem_ny">Közlemény</string>
+    <string name="ment_s_j_rlapk_nt">Mentés új űrlapként</string>
+    <string name="k_sz">Kész</string>
+    <string name="rlapok_kezel_se">Űrlapok kezelése</string>
+    <string name="igen_t_rl_s">Igen, törlés</string>
+    <string name="t_rli_az_rlapot">Törli az űrlapot?</string>
+    <string name="rlap_hozz_ad_sa">Űrlap hozzáadása</string>
+    <string name="elemem_hozz_ad_sa">Elem hozzáadása</string>
+    <string name="mobilos_fizet_s">Mobilos fizetés</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="hatranap">%1$d nap van hátra.</string>
+    <string name="hufcelig">Még %1$d HUF a célig</string>
+    <string name="hufpernap">Napi %1$d HUF a teljesítéshez </string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nincs_cel_datum">Nincs cél dátum</string>
+    <string name="cel_beallitasa">Cél beállítása a szerkesztés gomb segítségével</string>
+    <string name="nincs_cel_osszeg">Nincs cél összeg</string>
+    <string name="osszegzes">Összegzés</string>
+    <string name="cel">Célok</string>
+    <string name="kiadasok">Kiadások</string>
+    <string name="tovabbi">További lehetőségek</string>
+    <string name="utalas">Utalás</string>
+    <string name="urlapok_kezelese">Űrlapok kezelése</string>
+    <string name="utalas_qr">Utalás QR kóddal</string>
+    <string name="sajat_qr">Sajárt QR kód</string>
+    <string name="segitse">Segítség</string>
+    <string name="kartya_zarolasa">Kártya zárolása</string>
+    <string name="qr_kod">Qr kód</string>
+    <string name="masik_kartya_valasztasa">Másik kártya választása</string>
+    <string name="formname">FormName</string>
+    <string name="formnumber0000000000000">FormNumber0000000000000</string>
+    <string name="osszeg">Osszeg</string>
+    <string name="datum">Datum</string>
+    <string name="date">Date</string>
+    <string name="itemprice">ItemPrice</string>
+    <string name="itemname">ItemName</string>
+    <string name="torli_a_tetelt">Törli az tételt?</string>
+    <string name="_00000000_0000000_12345678">00000000-0000000-12345678</string>
+    <string name="test_name">Test Name</string>
+    <string name="zarolas">Zárolás Kérése</string>
+    <string name="fizezes">Fizetés</string>
+    <string name="szamlatortenet">Számlatörténet</string>
+    <string name="kapcsolat">Kapcsolat</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="error_empty">Ez a mező nem lehet üres</string>
+    <!-- AccHistoryAdapter.java -->
+    <string name="import_short">Import</string>
+    <string name="import_long">Importálja a tételt a kiadásokhoz?</string>
+    <!-- DialogFragmentAddItem.java -->
+    <string name="add">Hozzáadva</string>
+    <!-- FragmentPieChart.java -->
+    <string name="kiadas">Kiadás</string>
+    <string name="bevetel">Bevétel></string>
+    <!-- AddFormActivity.java -->
+    <string name="urlap_hozzaadva">Űrlap hozzáadva</string>
+    <!--LockCardActivity.java -->
+    <string name="zarolas_short">Zárolás kérése</string>
+    <string name="zarolas_long">Kártya zárolás kérve></string>
+    <!-- LoginActivity-->
+    <string name="error_username">Kérem adja meg a felhasználónevét</string>
+    <string name="erros_pass">Kérem adja meg a jelszavát</string>
+    <!-- MapsActivity.java -->
+    <string name="atm1">WestEnd ATM</string>
+    <string name="atm2">Nemzeti Közszolgálati Egyetem Központ ATM</string>
+    <string name="kp">Székhely</string>
+    <!--MobilPaymentActivity-->
+    <string name="sikeres_fizetes">Sikeres fizetés"</string>
+    <!-- NavigationActivity-->
+    <string name="reszletek">Részletekért húzzon balra</string>
+    <string name="kilepes">Kilépés?</string>
+    <string name="kilepes_long">Biztosan kilép az alkapmazásból?</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="bank_keres">Bank kereső</string>
+    <string name="kezd_lap">Kezdőlap</string>
+    <string name="gr_nit_telebank">GRÁNIT TELEBANK</string>
+    <string name="telefon">Telefon:</string>
+    <string name="_36_1_510_0527">+36 1 510 0527</string>
+    <string name="fax">Fax:</string>
+    <string name="_36_1_235_5906">+36 1 235 5906</string>
+    <string name="postac_m">Postacím:</string>
+    <string name="_1439_budapest_pf_649">1439 Budapest Pf. 649.</string>
+    <string name="info_granitbank_hu">info@granitbank.hu</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="nev">Nev</string>
+    <string name="cash">Cash</string>
+    <string name="szam">Szam</string>
+    <string name="qrscan">QrScan</string>
+    <string name="maps">Maps</string>
+    <string name="k_rem_ford_tsa_a_kamer_t_a_qr_k_d_fel">Kérem fordítsa a kamerát a QR kód felé.</string>
+    <string name="_12345678_12345678_12345678">12345678-12345678-12345678</string>
+</resources>

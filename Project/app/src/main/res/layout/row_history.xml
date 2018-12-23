@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linHistRow"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/osszeg"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/osszeg" />
+
+        <TextView
+            android:id="@+id/datum"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/datum"
+            android:gravity="end"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nev"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="@string/nev" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTitleLightRed" />
+
+
+
+
+</LinearLayout>

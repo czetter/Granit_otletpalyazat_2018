@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_gyorsutalas"
+        android:title="@string/utal_s"
+        android:icon="@drawable/ic_utalas"/>
+    <item
+        android:id="@+id/action_jurlap"
+        android:title="@string/rlap_hozz_ad_s"
+        android:icon="@drawable/ic_urlap"/>
+    <item
+        android:id="@+id/action_mobilepayment"
+        android:title="@string/mobilos_fizet_s"
+        android:icon="@drawable/ic_nfc"/>
+</menu>

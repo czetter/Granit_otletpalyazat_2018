@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/txtItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/nev"
+            android:inputType="text"
+            android:paddingTop="20dp"
+            android:focusedByDefault="true"/>
+
+        <EditText
+            android:id="@+id/txtAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/sszeg"
+            android:inputType="numberSigned"
+            android:paddingTop="20dp" />
+
+        <EditText
+            android:id="@+id/txtItemDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/datum"
+            android:inputType="date"
+            android:paddingTop="20dp" />
+
+
+    </LinearLayout>
+    <com.andexert.library.RippleView
+        android:layout_gravity="center"
+        android:id="@+id/btnKesz"
+        rv_centered="true"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+>
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/k_sz"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            style="@style/RippleStyle"/>
+
+    </com.andexert.library.RippleView>
+</LinearLayout>

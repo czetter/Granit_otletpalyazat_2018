@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoneyTransferActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uj_utalas"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:padding="15dp"/>
+    <Spinner
+        android:id="@+id/urlapSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Spinner>
+    <EditText
+        android:id="@+id/kezdNev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/kezdem_nyezett_neve"
+        android:inputType="text"
+        android:paddingTop="40dp"/>
+
+    <EditText
+        android:id="@+id/kezdAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/kezdem_nyezett_sz_mlasz_ma"
+        android:inputType="number"
+        android:paddingTop="20dp"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/sszeg"
+        android:inputType="numberDecimal"
+        android:paddingTop="20dp"/>
+    <EditText
+        android:id="@+id/kozl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/k_zlem_ny"
+        android:inputType="text"
+        android:paddingTop="20dp"/>
+    <Switch
+        android:id="@+id/swMentesUrlapkent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ment_s_j_rlapk_nt"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"/>
+
+    <com.andexert.library.RippleView
+        android:layout_gravity="center"
+        android:id="@+id/btnKesz"
+        rv_centered="true"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            style="@style/RippleStyle"
+            android:text="@string/k_sz"
+            />
+
+    </com.andexert.library.RippleView>
+</LinearLayout>

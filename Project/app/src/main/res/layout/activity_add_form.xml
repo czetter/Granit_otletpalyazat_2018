@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFormActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rlap_hozz_ad_sa"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:padding="15dp"/>
+
+    <EditText
+        android:id="@+id/txtFormName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/kezdem_nyezett_neve"
+        android:inputType="text"
+        android:paddingTop="40dp"/>
+
+    <EditText
+        android:id="@+id/txtFormNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/kezdem_nyezett_sz_mlasz_ma"
+        android:inputType="number"
+        android:paddingTop="20dp"/>
+
+    <com.andexert.library.RippleView
+        android:layout_gravity="center"
+        android:id="@+id/btnKesz"
+        rv_centered="true"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:text="@string/k_sz"
+            style="@style/RippleStyle"
+/>
+
+    </com.andexert.library.RippleView>
+</LinearLayout>

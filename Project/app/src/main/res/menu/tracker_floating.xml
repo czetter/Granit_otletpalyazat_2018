@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_jurlap"
+        android:title="@string/elemem_hozz_ad_sa"
+        android:icon="@drawable/ic_additem"/>
+
+</menu>

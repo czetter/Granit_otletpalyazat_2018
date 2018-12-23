@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_moneyTransfer"
+            android:icon="@drawable/ic_utalas"
+            android:title="@string/utalas" />
+        <item
+            android:id="@+id/nav_manageForms"
+            android:icon="@drawable/ic_formmanage"
+            android:title="@string/urlapok_kezelese" />
+    </group>
+
+    <item android:title="@string/qr_kod">
+        <menu>
+            <item
+                android:id="@+id/nav_Qrscan"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/utalas_qr" />
+            <item
+                android:id="@+id/nav_myQr"
+                android:icon="@drawable/ic_qrfele"
+                android:title="@string/sajat_qr" />
+        </menu>
+    </item>
+
+    <item android:title="@string/tovabbi">
+        <menu>
+            <item
+                android:id="@+id/nav_maps"
+                android:icon="@drawable/ic_map"
+                android:title="@string/bank_keres"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/kapcsolat" />
+            <item
+                android:id="@+id/nav_lock"
+                android:icon="@drawable/ic_lock"
+                android:title="@string/kartya_zarolasa">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>

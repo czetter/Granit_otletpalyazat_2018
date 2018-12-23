@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MobilPaymentActivity"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtNamePay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/nev"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtNumPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/szam" />
+
+    <ImageView
+        android:id="@+id/imgPay"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:src="@drawable/img_mobile_pay" />
+
+    <com.andexert.library.RippleView
+        android:id="@+id/btnPay"
+        rv_centered="true"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            style="@style/RippleStyle"
+            android:text="@string/fizezes" />
+
+    </com.andexert.library.RippleView>
+
+</LinearLayout>
